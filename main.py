@@ -28,6 +28,8 @@ with sale:
     sales_table = st.button("click here to see your sales table")
     if sales_table:
         st.write(sales(number_of_sales))
+
+'''
 with down :
     down_button = st.button("Download your company database"  )
     if down_button :
@@ -35,3 +37,4 @@ with down :
         st.download_button("Employee Table", data=empp, file_name="generated_employments_table1.csv")
         st.download_button("Sales Table", data=sal, file_name="generated_employments_table2.csv")
 
+'''
