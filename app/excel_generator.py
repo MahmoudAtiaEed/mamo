@@ -12,7 +12,7 @@ df = pd.DataFrame({"ID":[], "First Name":[], "Last Name":[],"Gender":[]})  #fris
 df2 = pd.DataFrame({"ID":[],"number of sales":[] ,"price":[],"profit": [], "COG":[] , "product":[]}) # second table "sales"
 letters = re.findall(r"\w", string.ascii_uppercase)[0:10] # creating a list of letters for product
 print("please waite")
-with open(r"~/mamo/dist.male.first","r",encoding="UTF-8") as m:
+with open(r"dist.male.first","r",encoding="UTF-8") as m:
     male = m.read() #converting to string
 
 
